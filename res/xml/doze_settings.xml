@@ -48,6 +48,19 @@
         android:summary="@string/doze_summary"
         android:persistent="false" />
 
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="pulse_ambient_light"
+        android:title="@string/pulse_ambient_light_title"
+        android:summary="@string/pulse_ambient_light_summary"
+        android:defaultValue="false" />
+
+    <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+        android:key="pulse_ambient_light_color"
+        android:title="@string/pulse_ambient_light_color_title"
+        android:persistent="false"
+        android:dependency="pulse_ambient_light"
+        settings:defaultColorValue="0xFF0060FF" />
+                                                                    
     <PreferenceCategory
         android:key="tilt_sensor"
         android:title="@string/tilt_sensor_title" >
