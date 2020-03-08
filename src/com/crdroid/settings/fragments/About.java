@@ -66,20 +66,20 @@ public class About extends SettingsPreferenceFragment implements Indexable {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mSourceUrl) {
-            launchUrl("https://github.com/FlokoROM");
+            launchUrl("https://github.com/MythicROM");
         } else if (preference == mTelegramUrl) {
-            launchUrl("https://floko.maud.io");
+            launchUrl("https://github.com/MythicROM");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
             intent.setType("text/plain");
             intent.putExtra(Intent.EXTRA_TEXT, String.format(
-                    getActivity().getString(R.string.share_floko_message), Build.MODEL));
-            startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_floko_chooser_title)));
+                    getActivity().getString(R.string.share_mythic_message), Build.MODEL));
+            startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_mythic_chooser_title)));
         } else if (preference == mTranslate) {
-            launchUrl("https://floko.maud.io");
+            launchUrl("https://github.com/MythicROM");
         } else if (preference == mWebsite) {
-            launchUrl("https://floko.maud.io");
+            launchUrl("https://github.com/MythicROM");
         }
 
         return super.onPreferenceTreeClick(preference);
