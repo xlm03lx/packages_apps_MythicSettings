@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="floko_settings_title">Floko Settings</string>
-    <string name="crdroid_settings_summary">Open goodness</string>
+    <string name="mythic_settings_title">Mythic</string>
+    <string name="crdroid_settings_summary">Customize Evertyhing Here </string>
     <string name="crdroid_personalization_category">Personalization</string>
     <string name="crdroid_addons_category">Addons</string>
 
@@ -487,7 +487,7 @@
     <string name="status_bar_crdroid_logo_style">Logo style</string>
     <string name="status_bar_logo_position_right">Right</string>
     <string name="status_bar_logo_position_left">Left</string>
-    <string name="status_bar_logo_style_floko">FlokoROM</string>
+    <string name="status_bar_logo_style_mythic">MythicROM</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>
@@ -1093,16 +1093,16 @@
     <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
 
-    <!-- About FlokoROM -->
-    <string name="about_floko">About FlokoROM</string>
+    <!-- About MythicROM -->
+    <string name="about_mythic">About MythicROM</string>
 
-    <!-- Share FlokoROM -->
-    <string name="share_floko_title">Share FlokoROM</string>
-    <string name="share_floko_summary">Let others know about FlokoROM</string>
-    <string name="share_floko_message">Check out what #FlokoROM is / https://floko.maud.io/</string>
-    <string name="share_floko_chooser_title">Share Floko</string>
+    <!-- Share MythicROM -->
+    <string name="share_mythic_title">Share MythicROM</string>
+    <string name="share_mythic_summary">Let others know about MythicROM</string>
+    <string name="share_mythic_message">Check out what #MythicROM is / https://github.com/MythicROM/</string>
+    <string name="share_mythic_chooser_title">Share MythicROM</string>
 
-    <!-- Sites FlokoROM -->
+    <!-- Sites MythicROM -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">We love open source, check us out</string>
     <string name="crdroid_website_title">Official website</string>
@@ -1121,10 +1121,10 @@
     <string name="maintainers_crdroid_summary">List of supported devices and their official maintainers</string>
     <string name="maintainers_crdroid_error">Unable to load devices and maintainers list</string>
 
-    <!-- Donate FlokoROM -->
+    <!-- Donate MythicROM -->
     <string name="donate_crdroid_title">Support us</string>
     <string name="donate_crdroid_summary">Donate to support development and our server</string>
-    <string name="donate_floko_team_title">FlokoROM team</string>
+    <string name="donate_mythic_team_title">MythicROM team</string>
     <string name="donate_team_summary">Donate to support build system and development</string>
 <!--
     <string name="donate_dev_title" translatable="false">hota (lindwurm)</string>
@@ -1723,7 +1723,7 @@
 
     <!-- Reset settings -->
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most Floko settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most MythicROM settings to their default values for the current user. Would you like to continue?</string>
 
     <!-- OTA -->
     <string name="ota_crdroid_title">Updates</string>
@@ -1737,8 +1737,8 @@
     <string name="latest_version">Latest version: %1$s</string>
     <string name="unknown">Unknown</string>
     <string name="system_uptodate">Your system is up to date</string>
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_unknown">No official maintainer</string>
+    <string name="maintainer_title">Developer</string>
+    <string name="maintainer_unknown">Fanthaghiro Foe</string>
     <string name="changelog_title">Server changelog</string>
     <string name="changelog_summary">View changelog of latest available update</string>
     <string name="download_title">Download latest build</string>
@@ -2399,4 +2399,9 @@
     <string name="aggressive_standby_summary">Restrict apps from running the background</string>
     <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string> 
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Edge light color</string>
 </resources>
