@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2018 crDroid Android Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="20dp"
-    android:height="20dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <group
-        android:scaleX="0.5"
-        android:scaleY="0.5">
-        <path
-            android:fillColor="#88C9F9"
-            android:pathData="M19,27.586 L19,8.415 L23.828,3.586 S24.535,2.879,23.828,2.171 C23.121,1.464,22.414,2.171,22.414,2.171 L19,5.586 L19,1 S19,0,18,0 S17,1,17,1 L17,5.586 L13.586,2.171 S12.879,1.464,12.172,2.171 C11.465,2.879,12.172,3.586,12.172,3.586 L17,8.415 L17,27.586 L12.172,32.414 S11.465,33.121,12.172,33.828 S13.586,33.828,13.586,33.828 L17,30.414 L17,35 S17,36,18,36 S19,35,19,35 L19,30.414 L22.414,33.828 S23.121,34.535,23.828,33.828 S23.828,32.414,23.828,32.414 L19,27.586 Z" />
-        <path
-            android:fillColor="#88C9F9"
-            android:pathData="M34.622,20.866 C34.363,19.9,33.397,20.159,33.397,20.159 L26.802,21.926 L10.199,12.34 L8.432,5.745 S8.173,4.779,7.207,5.038 C6.24,5.297,6.5,6.263,6.5,6.263 L7.75,10.927 L3.778,8.633 S2.912,8.133,2.412,8.999 C1.912,9.865,2.778,10.365,2.778,10.365 L6.749,12.658 L2.085,13.907 S1.118,14.166,1.378,15.132 C1.637,16.099,2.603,15.84,2.603,15.84 L9.199,14.073 L25.802,23.659 L27.569,30.255 S27.828,31.221,28.794,30.962 C29.76,30.702,29.501,29.737,29.501,29.737 L28.251,25.073 L32.223,27.366 S33.09,27.866,33.59,27.001 C34.09,26.134,33.223,25.634,33.223,25.634 L29.252,23.341 L33.915,22.092 C33.915,22.091,34.881,21.832,34.622,20.866 Z" />
-        <path
-            android:fillColor="#88C9F9"
-            android:pathData="M33.915,13.907 L29.251,12.657 L33.223,10.364 S34.09,9.863,33.59,8.997 C33.089,8.13,32.223,8.631,32.223,8.631 L28.252,10.923 L29.501,6.26 S29.76,5.294,28.794,5.035 C27.828,4.776,27.569,5.742,27.569,5.742 L25.802,12.337 L9.198,21.926 L2.604,20.158 S1.638,19.899,1.379,20.865 C1.119,21.832,2.086,22.09,2.086,22.09 L6.749,23.339 L2.778,25.632 S1.913,26.133,2.413,26.999 C2.913,27.864,3.778,27.364,3.778,27.364 L7.75,25.071 L6.5,29.734 S6.241,30.701,7.207,30.959 C8.174,31.219,8.433,30.253,8.433,30.253 L10.201,23.656 L26.805,14.071 L33.4,15.839 S34.366,16.098,34.625,15.132 C34.88,14.165,33.915,13.907,33.915,13.907 Z" />
-    </group>
+        android:width="24.0dp"
+        android:height="24.0dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"
+        android:tint="?android:attr/colorControlNormal">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M7,6H17A6,6 0 0,1 23,12A6,6 0 0,1 17,18C15.22,18 13.63,17.23 12.53,16H11.47C10.37,17.23 8.78,18 7,18A6,6 0 0,1 1,12A6,6 0 0,1 7,6M6,9V11H4V13H6V15H8V13H10V11H8V9H6M15.5,12A1.5,1.5 0 0,0 14,13.5A1.5,1.5 0 0,0 15.5,15A1.5,1.5 0 0,0 17,13.5A1.5,1.5 0 0,0 15.5,12M18.5,9A1.5,1.5 0 0,0 17,10.5A1.5,1.5 0 0,0 18.5,12A1.5,1.5 0 0,0 20,10.5A1.5,1.5 0 0,0 18.5,9Z" />
 </vector>
