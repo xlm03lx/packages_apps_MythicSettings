@@ -50,9 +50,9 @@ public class Donate extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mDonateTeam) {
-            launchUrl("https://floko.maud.io");
+            launchUrl("https://github.com/MythicROM");
         } else if (preference == mDonateDev) {
-            launchUrl("https://floko.maud.io");
+            launchUrl("https://github.com/MythicROM");
         }
 
         return super.onPreferenceTreeClick(preference);
